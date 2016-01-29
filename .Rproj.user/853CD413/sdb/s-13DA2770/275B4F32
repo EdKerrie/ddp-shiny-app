@@ -1,0 +1,18 @@
+{
+    "contents" : "---\ntitle: \"Documentation for the Black Cherry Trees plot\"\nauthor: \"Jesse van den Berg\"\ndate: \"28 januari 2016\"\noutput: html_document\n---\n\n## Dataset\nThe dataset that is used for this small app is the trees dataset. This data set provides measurements of the girth, height and volume of timber in 31 felled black cherry trees. Note that girth is the diameter of the tree (in inches) measured at 4 ft 6 in above the ground.\n\n### Format\n\nA data frame with 31 observations on 3 variables.\n\n[,1]\tGirth,\t numeric,\t Tree diameter in inches\n\n[,2]\tHeight,\t numeric,\t Height in ft\n\n[,3]\tVolume,\t numeric,\t Volume of timber in cubic ft\n\n\n## Input\nThere are two possible inputs drop downs. Each shows the possible variable you can choose to show on that specific axis.\n\n## Plot\nThe plot that is shown depends on the variable you selected in the two input widgets.",
+    "created" : 1453988058733.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "42726907",
+    "id" : "275B4F32",
+    "lastKnownWriteTime" : 1453988619,
+    "path" : "~/Coursera/Developing Data Products/Coursera_DDP_app/Documentation.Rmd",
+    "project_path" : "Documentation.Rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}

@@ -1,0 +1,17 @@
+{
+    "contents" : "shinyUI(pageWithSidebar(\n  headerPanel('Black Cherry Trees plot'),\n  sidebarPanel(\n    selectInput('xcol', 'X Variable', \n                choices = names(trees),\n                selected='Height'),\n    selectInput('ycol', 'Y Variable', \n                choices = names(trees),\n                selected='Volume')\n  ),\n  mainPanel(\n    tabsetPanel(\n      tabPanel(\"Plot\", plotOutput(\"plot1\")),\n      tabPanel(\"Documentation\", includeMarkdown(\"Documentation.Rmd\"))\n    )\n  )\n))",
+    "created" : 1453986018137.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2779473641",
+    "id" : "3770E2FF",
+    "lastKnownWriteTime" : 1453988525,
+    "path" : "~/Coursera/Developing Data Products/Coursera_DDP_app/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

@@ -1,0 +1,26 @@
+---
+title: "Documentation for the Black Cherry Trees plot"
+author: "Jesse van den Berg"
+date: "28 januari 2016"
+output: html_document
+---
+
+## Dataset
+The dataset that is used for this small app is the trees dataset. This data set provides measurements of the girth, height and volume of timber in 31 felled black cherry trees. Note that girth is the diameter of the tree (in inches) measured at 4 ft 6 in above the ground.
+
+### Format
+
+A data frame with 31 observations on 3 variables.
+
+[,1]	Girth,	 numeric,	 Tree diameter in inches
+
+[,2]	Height,	 numeric,	 Height in ft
+
+[,3]	Volume,	 numeric,	 Volume of timber in cubic ft
+
+
+## Input
+There are two possible inputs drop downs. Each shows the possible variable you can choose to show on that specific axis.
+
+## Plot
+The plot that is shown depends on the variable you selected in the two input widgets.

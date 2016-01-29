@@ -1,0 +1,17 @@
+{
+    "contents" : "library(shiny)\nlibrary(ggplot2)\nlibrary(datasets)\n\nshinyServer(function(input, output, session) {\n  \n  inputData <- reactive({\n    trees[, c(input$xcol, input$ycol)]\n  })\n  \n  output$plot1 <- renderPlot({\n    plot(inputData(), pch = 20, cex = 2,\n         xlab = paste(\"X Variable:\", input$xcol, sep=\" \"),\n         ylab = paste(\"Y Variable:\", input$ycol, sep=\" \"))\n  })\n})\n\n\n\n",
+    "created" : 1452765177000.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "392960768",
+    "id" : "4990CBD4",
+    "lastKnownWriteTime" : 1454056013,
+    "path" : "~/Coursera/DevelopingDataProducts/DDP_Shiny_App/server.R",
+    "project_path" : "server.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
